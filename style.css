@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #c7e7ff;
+    font-family: 'GowunBatang-Regular';
+}
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 540px;
+    background-color: #f5f5f6;
+    margin: 70px auto;
+
+}
+
+.title {
+    padding-top: 10px;
+    margin: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid #01579b;
+}
+
+.plusIcon {
+    position: absolute;
+    right: 20px;
+    top: 470px;
+    cursor: pointer;
+}
+
+.trashIcon {
+    width: 26px;
+    height: 26px;
+    float: right;
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    top: 475px;
+    left: 20px;
+    height: 40px;
+    width: 270px;
+    border: transparent;
+    font-size: 16px;
+    background-color: #f5f5f6;
+}
+
+input:focus {outline:none;}
+
+.list {
+    height: 400px;
+    width: 350px;
+    margin: 0 20px 0 30px;
+    overflow-y: auto;
+}
+
+span {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+.resetIcon {
+    float: right;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
